@@ -1,0 +1,2974 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.1                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      binary;
+    class       volScalarField;
+    location    "0/concrete_2";
+    object      T;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [ 0 0 0 1 0 0 0 ];
+
+internalField   uniform 273;
+
+boundaryField
+{
+zone_0_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_right
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_top
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_bottom
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_left
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+right_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+top_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+bottom_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_0
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_1
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_2
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_3
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_4
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_5
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_6
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_7
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_8
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_9
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_11
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_12
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_10
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_0_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_1_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_2_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_3_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_4_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_5_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_6_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_7_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_8_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_9_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_11_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_12_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_10_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+zone_13_to_zone_13
+{
+type compressible::turbulentTemperatureCoupledBaffleMixed;
+            value uniform 273;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            kappaMethod solidThermo;
+            Tnbr T;
+}
+left
+{
+type fixedValue;
+value uniform 267.15;
+}
+right
+{
+type fixedValue;
+value uniform 292.15;
+}
+top
+{
+type fixedValue;
+value uniform 292.15;
+}
+bottom
+{
+type fixedValue;
+value uniform 292.15;
+}
+left_to_zone_2
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_2_to_left
+{
+type fixedValue;
+value uniform 267.15;
+}
+top_to_zone_2
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_2_to_top
+{
+type fixedValue;
+value uniform 267.15;
+}
+top_to_zone_0
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_0_to_top
+{
+type fixedValue;
+value uniform 267.15;
+}
+top_to_zone_1
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_1_to_top
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_11_to_zone_1
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_1_to_zone_11
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_11_to_zone_8
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_8_to_zone_11
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_11_to_zone_6
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_6_to_zone_11
+{
+type fixedValue;
+value uniform 292.15;
+}
+right_to_zone_6
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_6_to_right
+{
+type fixedValue;
+value uniform 292.15;
+}
+right_to_zone_7
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_7_to_right
+{
+type fixedValue;
+value uniform 292.15;
+}
+right_to_zone_5
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_5_to_right
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_12_to_zone_10
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_10_to_zone_12
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_12_to_zone_4
+{
+type fixedValue;
+value uniform 292.15;
+}
+zone_4_to_zone_12
+{
+type fixedValue;
+value uniform 292.15;
+}
+bottom_to_zone_4
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_4_to_bottom
+{
+type fixedValue;
+value uniform 267.15;
+}
+bottom_to_zone_3
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_3_to_bottom
+{
+type fixedValue;
+value uniform 267.15;
+}
+bottom_to_zone_2
+{
+type fixedValue;
+value uniform 267.15;
+}
+zone_2_to_bottom
+{
+type fixedValue;
+value uniform 267.15;
+}
+}

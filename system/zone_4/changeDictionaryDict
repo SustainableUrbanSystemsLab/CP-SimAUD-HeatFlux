@@ -1,0 +1,179 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      changeDictionaryDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+boundary
+{
+frontAndBack
+{
+type empty;
+}
+frontAndBack
+{
+type empty;
+}
+}
+T
+{
+internalField   uniform 0;
+
+          boundaryField
+          {
+          ".*"
+          {
+          type zeroGradient;
+          }
+"zone_0_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_1_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_2_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_3_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_4_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_5_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_6_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_7_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_8_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_9_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_11_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_12_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_10_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+"zone_13_to_.*"
+            {
+            type compressible::turbulentTemperatureCoupledBaffleMixed;
+            neighbourFieldName T;
+            K solidThermo;
+            KName none;
+            value uniform 0;
+            kappaMethod solidThermo;
+            Tnbr T;
+            }
+}
+}

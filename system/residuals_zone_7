@@ -1,0 +1,9 @@
+
+          type     residuals;
+          libs    ("libutilityFunctionObjects.so");
+          writeControl timeStep;
+          writeInterval   1;
+          regionType all;
+          region zone_7;
+          fields (h);
+          
