@@ -1,6 +1,7 @@
+setlocal
 call "C:\Program Files\blueCFD-Core-2017\\setvars.bat"
-set PATH=%HOME%msys64\usr\bin;%PATH%
-cd "C:\Users\pkastner\Documents\GitHub\Flux"
+set PATH=%HOME%\msys64\usr\bin;%PATH%
+cd /d %~dp0
 postProcess -func graph_220 -latestTime -region zone_0; postProcess -func graph_158 -latestTime -region zone_0; postProcess -func graph_220 -latestTime -region zone_1; postProcess -func graph_158 -latestTime -region zone_1; postProcess -func graph_220 -latestTime -region zone_2; postProcess -func graph_158 -latestTime -region zone_2; postProcess -func graph_220 -latestTime -region zone_3; postProcess -func graph_158 -latestTime -region zone_3; postProcess -func graph_220 -latestTime -region zone_4; postProcess -func graph_158 -latestTime -region zone_4; postProcess -func graph_220 -latestTime -region zone_5; postProcess -func graph_158 -latestTime -region zone_5; postProcess -func graph_220 -latestTime -region zone_6; postProcess -func graph_158 -latestTime -region zone_6; postProcess -func graph_220 -latestTime -region zone_7; postProcess -func graph_158 -latestTime -region zone_7; postProcess -func graph_220 -latestTime -region zone_8; postProcess -func graph_158 -latestTime -region zone_8; postProcess -func graph_220 -latestTime -region zone_9; postProcess -func graph_158 -latestTime -region zone_9; postProcess -func graph_220 -latestTime -region zone_11; postProcess -func graph_158 -latestTime -region zone_11; postProcess -func graph_220 -latestTime -region zone_12; postProcess -func graph_158 -latestTime -region zone_12; postProcess -func graph_220 -latestTime -region zone_10; postProcess -func graph_158 -latestTime -region zone_10; postProcess -func graph_220 -latestTime -region zone_13; postProcess -func graph_158 -latestTime -region zone_13; "
 
 PAUSE

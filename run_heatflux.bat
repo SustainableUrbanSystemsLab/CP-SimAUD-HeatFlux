@@ -1,6 +1,7 @@
+setlocal
 call "C:\Program Files\blueCFD-Core-2017\\setvars.bat"
-set PATH=%HOME%msys64\usr\bin;%PATH%
-cd "C:\Users\pkastner\Documents\GitHub\Flux"
+set PATH=%HOME%\msys64\usr\bin;%PATH%
+cd /d %~dp0
 postProcess -func grad(T) -region zone_0
 postProcess -func grad(T) -region zone_1
 postProcess -func grad(T) -region zone_2

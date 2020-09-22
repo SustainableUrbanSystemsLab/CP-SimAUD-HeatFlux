@@ -1,0 +1,43 @@
+cellSet zone_0 new boxToCell (0 0.014999999999997 1.66)	(0.5 0.254999999999997 2.81)
+cellZoneSet zone_0 new setToCellZone zone_0
+
+cellSet zone_1 new boxToCell (0 0.254999999999999 1.66)	(0.5 0.264999999999998 2.81)
+cellZoneSet zone_1 new setToCellZone zone_1
+
+cellSet zone_2 new boxToCell (0 -2.66453525910038E-15 0)	(0.5 0.014999999999997 2.81)
+cellZoneSet zone_2 new setToCellZone zone_2
+
+cellSet zone_3 new boxToCell (0 0.0149999999999997 0)	(0.5 0.255 1.5)
+cellZoneSet zone_3 new setToCellZone zone_3
+
+cellSet zone_4 new boxToCell (0 0.255 0)	(0.5 0.265 1.5)
+cellZoneSet zone_4 new setToCellZone zone_4
+
+cellSet zone_5 new boxToCell (8.35997937542743E-13 0.165000000000001 1.5)	(0.5 2.68 1.65999999999739)
+cellZoneSet zone_5 new setToCellZone zone_5
+
+cellSet zone_6 new boxToCell (0 0.274999999999998 1.7)	(0.5 2.68 1.75)
+cellZoneSet zone_6 new setToCellZone zone_6
+
+cellSet zone_7 new boxToCell (-2.22044604925031E-16 0.274999999999998 1.66)	(0.5 2.68 1.7)
+cellZoneSet zone_7 new setToCellZone zone_7
+
+cellSet zone_8 new boxToCell (0 0.264999999999998 1.66)	(0.5 0.274999999999998 1.75)
+cellZoneSet zone_8 new setToCellZone zone_8
+
+cellSet zone_9 new boxToCell (0 0.0149999999999983 1.5)	(0.5 0.124999999999999 1.66)
+cellZoneSet zone_9 new setToCellZone zone_9
+
+cellSet zone_11 new boxToCell (0 0.264999999999998 1.75)	(0.5 2.68 2.81)
+cellZoneSet zone_11 new setToCellZone zone_11
+
+cellSet zone_12 new boxToCell (0 0.265 4.44089209850063E-16)	(0.5 2.68 1.49)
+cellZoneSet zone_12 new setToCellZone zone_12
+
+cellSet zone_10 new boxToCell (0 0.265 1.49)	(0.5 2.68 1.5)
+cellZoneSet zone_10 new setToCellZone zone_10
+
+cellSet zone_13 new boxToCell (-5.55111512312578E-17 0.124999999999999 1.5)	(0.5 0.165000000000001 1.66)
+cellZoneSet zone_13 new setToCellZone zone_13
+
+
