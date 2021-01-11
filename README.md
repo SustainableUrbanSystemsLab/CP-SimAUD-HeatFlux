@@ -44,7 +44,7 @@ Please cite our work if you decide to use this for your own research.
 ### APA
 
 ```
-Kastner, P. and Dogan, T., 2020. Solving Thermal Bridging Problems for Architectural Applications with OpenFOAM. In: SimAUD 2020. [online] Available at: <http://simaud.org/2020/preprints/37.pdf> [Accessed 21 September 2020].
+Kastner, P. and Dogan, T., 2020. Solving Thermal Bridging Problems for Architectural Applications with OpenFOAM. In: SimAUD 2020. [online] Available at: <https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM> [Accessed 21 September 2020].
 ```
 
 ### Bibtex
@@ -52,7 +52,7 @@ Kastner, P. and Dogan, T., 2020. Solving Thermal Bridging Problems for Architect
 ```
 @inbook{kastner_dogan_2020a, 
  title={Solving Thermal Bridging Problems for Architectural Applications with OpenFOAM}, 
- url={http://simaud.org/2020/preprints/37.pdf}, 
+ url={https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM}, 
  booktitle={SimAUD 2020}, 
  author={Kastner, Patrick and Dogan, Timur}, 
  year={2020} 
