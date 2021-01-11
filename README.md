@@ -1,6 +1,6 @@
 # HeatFlux
 
-This case is based on [this paper](http://simaud.org/2020/preprints/37.pdf) titled _Solving Thermal Bridging Problems for Architectural Applications
+This case is based on [this paper](https://www.researchgate.net/publication/346039320_Solving_Thermal_Bridging_Problems_for_Architectural_Applications_with_OpenFOAM) titled _Solving Thermal Bridging Problems for Architectural Applications
 with OpenFOAM_ submitted to the SimAUD 2020 conference.
 
 ## What it does
