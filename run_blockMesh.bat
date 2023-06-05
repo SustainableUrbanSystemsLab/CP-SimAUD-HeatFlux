@@ -1,7 +1,2 @@
-setlocal
-call "C:\Program Files\blueCFD-Core-2017\\setvars.bat"
-set PATH=%HOME%\msys64\usr\bin;%PATH%
-cd /d %~dp0
-blockMesh
+docker run -v "%cd%:/home/openfoam" --entrypoint="" hfdresearch/swak4foamandpyfoam:latest-v4.1 bash -c "source /opt/openfoam4/etc/bashrc && cd /home/openfoam && blockMesh
 
-PAUSE

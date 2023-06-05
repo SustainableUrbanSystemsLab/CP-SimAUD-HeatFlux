@@ -16,33 +16,33 @@
 
         solvers
         {
-        "p_rgh. * "
-      {
+        "p_rgh.*"
+        {
         solver GAMG;
         tolerance        1e-7;
         relTol           0.01;
         smoother DIC;
         maxIter          10;
-      }
+        }
 
-      "(U|h|e|k|epsilon).*"
-      {
-        solver PBiCGStab;
-        preconditioner none;
-        tolerance        1e-7;
-        relTol           0.1;
-      }
-    
-	
-	
-	
-      T
-      {
-/*        solver           PCG;
+        "(U|h|e|k|epsilon).*"
+        {
+        solver          smoothSolver;
+        smoother        GaussSeidel;
+        tolerance       1e-06;
+        relTol          0.1;
+        }
+
+
+
+
+        T
+        {
+        /*        solver           PCG;
         preconditioner   DIC;
         tolerance        1e-06;
         relTol           0.1;
-*/
+        */
         solver GAMG;
         tolerance        1e-9;
         relTol           0.001;
@@ -56,36 +56,44 @@
 
         maxIter          1000;
 
-      }
+        }
 
-      TFinal
-      {
+        TFinal
+        {
         $T;
         tolerance        1e-09;
         relTol           0;
-      }
-    }
+        }
 
-    PIMPLE
-    {
-      nNonOrthogonalCorrectors 1;
-      momentumPredictor true;
+        hFinal
+        {
+        $h;
+        tolerance        1e-09;
+        relTol           0;
+        }
 
-      residualControl
-      {
+        }
+
+        PIMPLE
+        {
+        nNonOrthogonalCorrectors 1;
+        momentumPredictor true;
+
+        residualControl
+        {
         T	1e-2;
         TFinal	1e-2;
-      }
-    }
+        }
+        }
 
-    relaxationFactors
-    {
-      T	0.75;
-    }
-	
+        relaxationFactors
+        {
+        T	0.75;
+        }
 
-   
 
-    // ************************************************************************* //
 
-    
+
+        // ************************************************************************* //
+
+        
